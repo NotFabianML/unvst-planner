@@ -21,3 +21,27 @@ A modern academic planner for university students with intuitive drag-and-drop f
 1. Clone the repository:
    ```bash
    git clone https://github.com/NotFabianML/unvst-planner.git
+
+2. Install dependencies:
+
+   ```bash
+   pnpm install
+
+3. Start development server:
+
+   ```bash
+   pnpm run dev
+
+## Usage 🖱️
+- Drag courses from "Available Subjects" to desired semesters
+- Click the 🗑️ icon to return courses to available subjects
+- Use the search bar to filter courses
+- Click "Reset Plan" to start over
+
+## Tech Stack 💻
+- React 18 + Vite
+- TypeScript
+- Zustand (State management)
+- @dnd-kit (Drag and Drop)
+- Tailwind CSS
+- Sonner (Toasts)
