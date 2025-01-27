@@ -1,0 +1,380 @@
+[
+    {
+        "cuatrimestre": 1,
+        "asignaturas": [
+            {
+                "codigo": "BISOFT-04",
+                "nombre": "Proyecto de Ingeniería del Software 1",
+                "HL": 12,
+                "HP": 180,
+                "HE": 135,
+                "Cr": 7,
+                "requisitos": null
+            },
+            {
+                "codigo": "INF-01",
+                "nombre": "Introducción a la Tecnología de Información",
+                "HL": 3,
+                "HP": 45,
+                "HE": 90,
+                "Cr": 3,
+                "requisitos": null
+            },
+            {
+                "codigo": "INF-02",
+                "nombre": "Fundamentos de Programación",
+                "HL": 6,
+                "HP": 90,
+                "HE": 135,
+                "Cr": 5,
+                "requisitos": null
+            },
+            {
+                "codigo": "MAT-00",
+                "nombre": "Lógica y Matemática Básica",
+                "HL": 3,
+                "HP": 45,
+                "HE": 90,
+                "Cr": 3,
+                "requisitos": null
+            }
+        ]
+    },
+    {
+        "cuatrimestre": 2,
+        "asignaturas": [
+            {
+                "codigo": "BISOFT-07",
+                "nombre": "Programación Orientada a Objetos",
+                "HL": 6,
+                "HP": 90,
+                "HE": 135,
+                "Cr": 5,
+                "requisitos": ["INF-02"]
+            },
+            {
+                "codigo": "COMP-01",
+                "nombre": "Procesos Empresariales",
+                "HL": 4,
+                "HP": 60,
+                "HE": 75,
+                "Cr": 3,
+                "requisitos": ["INF-01"]
+            },
+            {
+                "codigo": "INF-03",
+                "nombre": "Fundamentos de Bases de Datos",
+                "HL": 6,
+                "HP": 90,
+                "HE": 90,
+                "Cr": 4,
+                "requisitos": ["INF-01", "INF-02"]
+            },
+            {
+                "codigo": "MAT-01",
+                "nombre": "Estructuras Discretas",
+                "HL": 4,
+                "HP": 60,
+                "HE": 75,
+                "Cr": 3,
+                "requisitos": ["MAT-00"]
+            }
+        ]
+    },
+    {
+        "cuatrimestre": 3,
+        "asignaturas": [
+            {
+                "codigo": "BISOFT-11",
+                "nombre": "Estructuras de Datos 1",
+                "HL": 4,
+                "HP": 60,
+                "HE": 120,
+                "Cr": 4,
+                "requisitos": ["BISOFT-07"]
+            },
+            {
+                "codigo": "BISOFT-12",
+                "nombre": "Programación con Patrones",
+                "HL": 4,
+                "HP": 60,
+                "HE": 75,
+                "Cr": 3,
+                "requisitos": ["BISOFT-07"]
+            },
+            {
+                "codigo": "BISOFT-13",
+                "nombre": "Proyecto de Ingeniería del Software 2",
+                "HL": 12,
+                "HP": 180,
+                "HE": 135,
+                "Cr": 7,
+                "requisitos": ["BISOFT-04", "BISOFT-07", "INF-03"]
+            },
+            {
+                "codigo": "ING-05",
+                "nombre": "Inglés Técnico para Informáticos",
+                "HL": 4,
+                "HP": 60,
+                "HE": 75,
+                "Cr": 3,
+                "requisitos": null
+            }
+        ]
+    },
+    {
+        "cuatrimestre": 4,
+        "asignaturas": [
+            {
+                "codigo": "BISOFT-15",
+                "nombre": "Diseño y Construcción de Componentes",
+                "HL": 4,
+                "HP": 60,
+                "HE": 120,
+                "Cr": 4,
+                "requisitos": ["BISOFT-12", "BISOFT-13"]
+            },
+            {
+                "codigo": "BISOFT-17",
+                "nombre": "Diseño Conceptual del Software",
+                "HL": 4,
+                "HP": 60,
+                "HE": 75,
+                "Cr": 3,
+                "requisitos": ["BISOFT-13", "COMP-01"]
+            },
+            {
+                "codigo": "BISOFT-18",
+                "nombre": "Programación de Bases de Datos",
+                "HL": 4,
+                "HP": 60,
+                "HE": 120,
+                "Cr": 4,
+                "requisitos": ["INF-03"]
+            },
+            {
+                "codigo": "INF-04",
+                "nombre": "Arquitectura de Computadoras",
+                "HL": 4,
+                "HP": 60,
+                "HE": 120,
+                "Cr": 4,
+                "requisitos": ["INF-01", "BISOFT-07"]
+            }
+        ]
+    },
+    {
+        "cuatrimestre": 5,
+        "asignaturas": [
+            {
+                "codigo": "BISOFT-20",
+                "nombre": "Estructuras de Datos 2",
+                "HL": 4,
+                "HP": 60,
+                "HE": 120,
+                "Cr": 4,
+                "requisitos": ["BISOFT-11", "BISOFT-12"]
+            },
+            {
+                "codigo": "BISOFT-21",
+                "nombre": "Principios de Sistemas Operativos",
+                "HL": 6,
+                "HP": 90,
+                "HE": 45,
+                "Cr": 3,
+                "requisitos": ["INF-04"]
+            },
+            {
+                "codigo": "BISOFT-22",
+                "nombre": "Proyecto de Ingeniería del Software 3",
+                "HL": 12,
+                "HP": 180,
+                "HE": 180,
+                "Cr": 8,
+                "requisitos": ["BISOFT-13", "BISOFT-15", "BISOFT-18"]
+            },
+            {
+                "codigo": "BISOFT-23",
+                "nombre": "Portafolio Profesional",
+                "HL": 3,
+                "HP": 45,
+                "HE": 0,
+                "Cr": 1,
+                "requisitos": ["BISOFT-13"]
+            },
+            {
+                "codigo": "COMP-02",
+                "nombre": "Ética y Profesionalismo",
+                "HL": 3,
+                "HP": 45,
+                "HE": 45,
+                "Cr": 2,
+                "requisitos": ["COMP-01"]
+            }
+        ]
+    },
+    {
+        "cuatrimestre": 6,
+        "asignaturas": [
+            {
+                "codigo": "BISOFT-24",
+                "nombre": "Proyecto en Empresa",
+                "HL": 30,
+                "HP": 450,
+                "HE": 0,
+                "Cr": 10,
+                "requisitos": ["BISOFT-22", "COMP-02", "BISOFT-20", "BISOFT-23", "BISOFT-21"]
+            }
+        ]
+    },
+    {
+        "cuatrimestre": 7,
+        "asignaturas": [
+            {
+                "codigo": "BISOFT-26",
+                "nombre": "Redes de Computadoras",
+                "HL": 6,
+                "HP": 90,
+                "HE": 45,
+                "Cr": 3,
+                "requisitos": ["BISOFT-21"]
+            },
+            {
+                "codigo": "BISOFT-28",
+                "nombre": "Ingeniería de Requerimientos",
+                "HL": 4,
+                "HP": 60,
+                "HE": 75,
+                "Cr": 3,
+                "requisitos": ["BISOFT-24"]
+            },
+            {
+                "codigo": "BISOFT-29",
+                "nombre": "Diseño de la Interacción Humano-Computadora",
+                "HL": 4,
+                "HP": 60,
+                "HE": 75,
+                "Cr": 3,
+                "requisitos": ["BISOFT-24"]
+            },
+            {
+                "codigo": "MAT-02",
+                "nombre": "Probabilidad y Estadística 1",
+                "HL": 4,
+                "HP": 60,
+                "HE": 75,
+                "Cr": 3,
+                "requisitos": ["MAT-01"]
+            },
+            {
+                "codigo": "MAT-03",
+                "nombre": "Cálculo Diferencial e Integral",
+                "HL": 4,
+                "HP": 60,
+                "HE": 120,
+                "Cr": 4,
+                "requisitos": ["MAT-01"]
+            }
+        ]
+    },
+    {
+        "cuatrimestre": 8,
+        "asignaturas": [
+            {
+                "codigo": "BISOFT-32",
+                "nombre": "Calidad, Verificación y Validación de Software",
+                "HL": 4,
+                "HP": 60,
+                "HE": 75,
+                "Cr": 3,
+                "requisitos": ["BISOFT-28"]
+            },
+            {
+                "codigo": "BISOFT-34",
+                "nombre": "Procesos de Ingeniería de Software",
+                "HL": 4,
+                "HP": 60,
+                "HE": 75,
+                "Cr": 3,
+                "requisitos": ["BISOFT-28"]
+            },
+            {
+                "codigo": "COMP-03",
+                "nombre": "Sociedad y Tecnologías de Información y Comunicación",
+                "HL": 4,
+                "HP": 60,
+                "HE": 75,
+                "Cr": 3,
+                "requisitos": ["COMP-02"]
+            },
+            {
+                "codigo": "FIS-01",
+                "nombre": "Física 1",
+                "HL": 4,
+                "HP": 60,
+                "HE": 120,
+                "Cr": 4,
+                "requisitos": ["MAT-03"]
+            },
+            {
+                "codigo": "MAT-04",
+                "nombre": "Álgebra Lineal",
+                "HL": 4,
+                "HP": 60,
+                "HE": 75,
+                "Cr": 3,
+                "requisitos": ["MAT-03"]
+            }
+        ]
+    },
+    {
+        "cuatrimestre": 9,
+        "asignaturas": [
+            {
+                "codigo": "BISOFT-36",
+                "nombre": "Sistemas Colaborativos",
+                "HL": 4,
+                "HP": 60,
+                "HE": 75,
+                "Cr": 3,
+                "requisitos": ["BISOFT-26"]
+            },
+            {
+                "codigo": "BISOFT-38",
+                "nombre": "Proyecto de Ingeniería de Software 4",
+                "HL": 8,
+                "HP": 120,
+                "HE": 150,
+                "Cr": 6,
+                "requisitos": ["BISOFT-29", "BISOFT-34"]
+            },
+            {
+                "codigo": "FIS-02",
+                "nombre": "Física 2",
+                "HL": 4,
+                "HP": 60,
+                "HE": 120,
+                "Cr": 4,
+                "requisitos": ["FIS-01"]
+            },
+            {
+                "codigo": "MAT-05",
+                "nombre": "Probabilidad y Estadística 2",
+                "HL": 4,
+                "HP": 60,
+                "HE": 75,
+                "Cr": 3,
+                "requisitos": ["MAT-02", "MAT-04"]
+            },
+            {
+                "codigo": "TCU-00",
+                "nombre": "Trabajo Comunal Universitario",
+                "HL": 0,
+                "HP": 0,
+                "HE": 0,
+                "Cr": 0,
+                "requisitos": null
+            }
+        ]
+    }
+]
